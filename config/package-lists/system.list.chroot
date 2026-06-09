@@ -47,7 +47,9 @@ command-not-found
 
 #Section: Task management/monitoring
 #Description: xfce4-taskmanager
+<<<<<<< HEAD
 #xfce4-taskmanager
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 htop
 iotop
 lm-sensors
@@ -154,7 +156,9 @@ testdisk
 #Section: File cleaners/linters
 #Description: bleachbit
 bleachbit
+<<<<<<< HEAD
 #Alt: localepurge
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #Alt: czkawka-gui
 
 #Section: Log viewers
@@ -175,11 +179,14 @@ colortail
 
 #Section: Virtualization
 #Description: virt-manager
+<<<<<<< HEAD
 #virt-manager
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 virtinst
 virt-viewer
 ebtables
 dnsmasq-base
+<<<<<<< HEAD
 #libvirt-daemon-system
 gir1.2-spiceclientgtk-3.0
 #qemu-system-x86
@@ -187,6 +194,7 @@ gir1.2-spiceclientgtk-3.0
 #qemu-utils
 libguestfs-tools
 #virt-p2v
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 libguestfs-rsync
 libguestfs-rescue
 netcat-openbsd
@@ -223,7 +231,9 @@ default-jre
 lightdm
 lightdm-gtk-greeter
 light-locker
-#Alt: accountsservice
+<<<<<<< HEAD
+accountsservice
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #Alt: slim
 #Alt: gdm3
 #Alt: arctica-greeter
@@ -235,7 +245,8 @@ light-locker
 
 #Section: Boot screen
 plymouth
-plymouth-x11
+<<<<<<< HEAD
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 plymouth-themes
 
 #Section: Scheduling
@@ -287,6 +298,10 @@ xfonts-base
 hwdata
 #Alt: nvidia-driver
 #Alt: nvidia-vaapi-driver
+<<<<<<< HEAD
+#Alt: xserver-xorg-input-aiptek
+#Alt: xserver-xorg-input-elographics
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #corctrl # sid only
 
 #Section: Kernel/boot/init

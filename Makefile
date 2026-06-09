@@ -4,6 +4,10 @@
 SHELL := /bin/bash
 LAST_TAG := $(shell git describe --tags --abbrev=0)
 LIBVIRT_STORAGE_PATH := /var/lib/libvirt/images/
+<<<<<<< HEAD
+ISO_NAME := debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso
+MAINTAINER_EMAIL ?= nodiscc@gmail.com
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 # remove 'download_extra' to build without third party software/dotfiles
 all: install_buildenv download_extra build
@@ -14,8 +18,10 @@ download_extra:
 
 .PHONY: install_buildenv # install packages required to build the image
 install_buildenv:
+<<<<<<< HEAD
 	mkdir config/packages.chroot/
 	sudo apt -y install live-build make build-essential wget git unzip colordiff apt-transport-https rename ovmf rsync python3-venv gnupg
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 ##############################
 
 .PHONY: clean # clear all caches, only required when changing the mirrors/architecture config
@@ -24,6 +30,9 @@ clean: clean_kvm
 	make -f Makefile.extra clean
 	rm -rf .venv
 
+<<<<<<< HEAD
+.PHONY: build # build the live system/ISO image
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 build:
 	# Build the live system/ISO image
 	sudo lb clean --all
@@ -32,9 +41,29 @@ build:
 
 ##############################
 
-.PHONY: bump_version # bump all version indicators before a new release
+<<<<<<< HEAD
+.PHONY: bump_version
 bump_version:
-	@echo "Please set version to $(LAST_TAG) in doc/md/conf.py config/bootloaders/grub-pc/live-theme/theme.txt config/bootloaders/isolinux/live.cfg.in config/bootloaders/isolinux/menu.cfg auto/config doc/md/download-and-installation.md doc/md/index.md"
+	@echo "Updating version to $(LAST_TAG) in:"
+	@echo "  - doc/md/conf.py"
+	@sed -i "/^version =/s/= '.*'/= '$(LAST_TAG)'/" doc/md/conf.py || exit 1
+	@sed -i "/^release =/s/= '.*'/= '$(LAST_TAG)'/" doc/md/conf.py || exit 1
+	@echo "  - config/bootloaders/grub-pc/live-theme/theme.txt"
+	@sed -i "s/title-text: \"debian-live-config \([0-9.]*\)\"/title-text: \"debian-live-config $(LAST_TAG)\"/" config/bootloaders/grub-pc/live-theme/theme.txt || exit 1
+	@echo "  - config/bootloaders/isolinux/live.cfg.in"
+	@sed -i "s/\(menu title debian-live-config \)[0-9.]*/\1$(LAST_TAG)/" config/bootloaders/isolinux/live.cfg.in || exit 1
+	@echo "  - config/bootloaders/isolinux/menu.cfg"
+	@sed -i "s/\(menu title debian-live-config \)[0-9.]*/\1$(LAST_TAG)/" config/bootloaders/isolinux/menu.cfg || exit 1
+	@echo "  - auto/config"
+	@sed -i "s/\(--iso-volume debian-live-config-\)[0-9.]*/\1$(LAST_TAG)/" auto/config || exit 1
+	@echo "  - doc/md/download-and-installation.md"
+	@sed -i "s/\(debian-live-config-\)[0-9.]*\(-debian-\([^-]*\)-amd64.iso\)/\1$(LAST_TAG)\2/g" doc/md/download-and-installation.md || exit 1
+	@sed -i "s/\(releases\/download\/\)[0-9.]*/\1$(LAST_TAG)/g" doc/md/download-and-installation.md || exit 1
+	@echo "  - README.md"
+	@sed -i "s/\(debian-live-config-\)[0-9.]*\(-debian-\([^-]*\)-amd64.iso\)/\1$(LAST_TAG)\2/g" README.md || exit 1
+	@sed -i "s/\(releases\/download\/\)[0-9.]*/\1$(LAST_TAG)/g" README.md || exit 1
+	@echo "Version update complete!"
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 .PHONY: release # generate release files
 release: checksums sign_checksums release_archive
@@ -43,10 +72,12 @@ release: checksums sign_checksums release_archive
 checksums:
 	@mkdir -p iso/
 	mv *.iso iso/
-	cd iso/; \
-	rename "s/live-image/debian-live-config-$(LAST_TAG)-debian-trixie/" *; \
-	rename "s/.hybrid.iso/.iso/" *; \
-	sha512sum *.iso  > SHA512SUMS; \
+<<<<<<< HEAD
+	cd iso/ && \
+	rename "s/live-image/debian-live-config-$(LAST_TAG)-debian-trixie/" * && \
+	rename "s/.hybrid.iso/.iso/" * && \
+	sha512sum *.iso > SHA512SUMS
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 # the signing key must be present and loaded on the build machine
 # gpg --export-secret-keys --armor $MAINTAINER_EMAIL > $MAINTAINER_EMAIL.key
@@ -54,11 +85,13 @@ checksums:
 # ssh -t $BUILD_HOST gpg --import $MAINTAINER_EMAIL.key
 .PHONY: sign_checksums # sign checksums with a GPG private key
 sign_checksums:
-	cd iso; \
-	gpg --detach-sign --armor SHA512SUMS; \
+<<<<<<< HEAD
+	cd iso && \
+	gpg --detach-sign --armor SHA512SUMS && \
 	mv SHA512SUMS.asc SHA512SUMS.sign
 	# Export the public GPG key used for signing
-	gpg --export --armor nodiscc@gmail.com > iso/debian-live-config-release.key
+	gpg --export --armor $(MAINTAINER_EMAIL) > iso/debian-live-config-release.key
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 .PHONY: release_archive # generate a source code archive
 release_archive:
@@ -67,25 +100,9 @@ release_archive:
 ################################
 
 .PHONY: tests # run all tests
-tests: test_imagesize test_kvm_bios test_kvm_uefi
-
-.PHONY: test_imagesize # ensure the image size is less than 2GB
-test_imagesize:
-	@size=$$(du -b iso/*.iso | cut -f 1); \
-	echo "[INFO] ISO image size: $$size bytes"; \
-	if [[ "$$size" -gt 2147483648 ]]; then \
-		echo '[WARNING] ISO image size is larger than 2GB!'; exit 1; \
-	fi
-
-.PHONY: debug_imagesize # generate ISO/squashfs image disk usage report (requires duc)
-debug_imagesize:
-	sudo mkdir -p /mnt/debian-live-config-iso /mnt/debian-live-config-squashfs
-	-sudo mount iso/*.iso /mnt/debian-live-config-iso
-	-sudo mount /mnt/debian-live-config-iso/live/filesystem.squashfs /mnt/debian-live-config-squashfs
-	sudo duc index /mnt/debian-live-config-squashfs -d debian-live-config-squashfs.duc-index
-	sudo duc index /mnt/debian-live-config-iso -d debian-live-config-iso.duc-index
-	#duc gui /mnt/debian-live-config-squashfs -d debian-live-config-squashfs.duc-index
-	duc gui /mnt/debian-live-config-iso -d debian-live-config-iso.duc-index
+<<<<<<< HEAD
+tests: test_kvm_bios test_kvm_uefi
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 .PHONY: clean_kvm # remove files generated by test_kvm_bios/test_kvm_uefi
 clean_kvm:
@@ -97,12 +114,22 @@ clean_kvm:
 # cp iso/*.iso /var/lib/libvirt/images/
 .PHONY: test_kvm_bios # test resulting live image in libvirt VM with legacy BIOS
 test_kvm_bios: clean_kvm
-	virt-install --name dlc-test --osinfo debian11 --boot cdrom --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso" --memory 3048 --vcpu 2
+<<<<<<< HEAD
+	rsync -avP "$(PWD)/iso/$(ISO_NAME)" "$(LIBVIRT_STORAGE_PATH)/"
+	virt-install --name dlc-test --osinfo debian11 --boot cdrom --video virtio \
+	--disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none \
+	--cdrom "$(LIBVIRT_STORAGE_PATH)/$(ISO_NAME)" --memory 3048 --vcpu 2
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 # UEFI support must be enabled in QEMU config for EFI install tests https://wiki.archlinux.org/index.php/Libvirt#UEFI_Support (/usr/share/OVMF/*.fd)
 .PHONY: test_kvm_uefi # test resulting live image in libvirt VM with UEFI
 test_kvm_uefi: clean_kvm
-	virt-install --name dlc-test --osinfo debian11 --boot uefi --video virtio --disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none --cdrom "$(LIBVIRT_STORAGE_PATH)debian-live-config-$(LAST_TAG)-debian-trixie-amd64.iso" --memory 3048 --vcpu 2
+<<<<<<< HEAD
+	rsync -avP "$(PWD)/iso/$(ISO_NAME)" "$(LIBVIRT_STORAGE_PATH)/"
+	virt-install --name dlc-test --osinfo debian11 --boot uefi --video virtio \
+	--disk path=$(LIBVIRT_STORAGE_PATH)/dlc-test-disk0.qcow2,format=qcow2,size=20,device=disk,bus=virtio,cache=none \
+	--cdrom "$(LIBVIRT_STORAGE_PATH)/$(ISO_NAME)" --memory 3048 --vcpu 2
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 ##### DOCUMENTATION #####
 # requirements: sudo apt install git jq
@@ -139,12 +166,10 @@ install_dev_docs:
 	python3 -m venv .venv/
 	source .venv/bin/activate && pip3 install sphinx myst_parser sphinx_rtd_theme sphinx_external_toc
 
-SPHINXOPTS    ?=
-SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = doc/md    # répertoire source (markdown)
-BUILDDIR      = doc/html  # répertoire destination (html)
+<<<<<<< HEAD
 .PHONY: doc_html # manual - HTML documentation generation (sphinx-build --help)
-doc_html: install_dev_docs
+doc_html: doc_md install_dev_docs
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 	source .venv/bin/activate && sphinx-build -c doc/md -b html doc/md doc/html
 
 .PHONY: codespell # manual - run interactive spell checker

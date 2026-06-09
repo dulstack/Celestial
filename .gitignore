@@ -14,6 +14,7 @@ config/chroot
 config/common
 *.duc-index
 iso/
+<<<<<<< HEAD
 binary.modified_timestamps
 config/hooks/live/
 config/hooks/normal/1000-create-mtab-symlink.hook.chroot
@@ -46,3 +47,4 @@ live-image-amd64.contents
 live-image-amd64.files
 live-image-amd64.hybrid.iso
 live-image-amd64.packages
+>>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
