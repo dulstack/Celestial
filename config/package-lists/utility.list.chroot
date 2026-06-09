@@ -47,6 +47,8 @@ catfish
 #gnome-split # bookworm only
 
 #Section: Desktop environment
+kde-plasma-desktop
+sddm
 #Description: xfce4
 #xfdesktop4
 #xfwm4
@@ -330,6 +332,7 @@ gtk2-engines-murrine
 gtk2-engines-pixbuf
 xdg-user-dirs-gtk
 libfile-mimeinfo-perl
+distrobox
 #Alt: zenity
 #Alt: conky-all
 #Alt: randtype
