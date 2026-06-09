@@ -9,11 +9,9 @@
 
 </sub>
 
-<<<<<<< HEAD
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/libreoffice/4:25.2.3-2+deb13u3">
 
 **[libreoffice](https://packages.debian.org/trixie/libreoffice)** - office productivity suite (metapackage)
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  LibreOffice is a full-featured office productivity suite that provides
@@ -24,7 +22,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [libreoffice-writer](https://packages.debian.org/trixie/libreoffice-writer) `4:25.2.3-2+deb13u3` - office productivity suite -- word processor
 - ![](green.png) [libreoffice-impress](https://packages.debian.org/trixie/libreoffice-impress) `4:25.2.3-2+deb13u3` - office productivity suite -- presentation
 - ![](green.png) [libreoffice-draw](https://packages.debian.org/trixie/libreoffice-draw) `4:25.2.3-2+deb13u3` - office productivity suite -- drawing
@@ -72,7 +69,6 @@
 - ![](grey.png) _[evolution-data-server](https://packages.debian.org/trixie/evolution-data-server) `3.56.2-0+deb13u1` - evolution database backend server_
 - ![](grey.png) _[abook](https://packages.debian.org/trixie/abook) `0.6.1-3+b1` - text-based ncurses address book application_
 - ![](grey.png) _[orage](https://packages.debian.org/trixie/orage) `4.18.0-1+b1` - Calendar for Xfce Desktop Environment_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Personal finance
 
 
@@ -80,9 +76,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/homebank/5.8.6-1">
 
-<<<<<<< HEAD
 **[homebank](https://packages.debian.org/trixie/homebank)** - Manage your personal accounts at home
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  HomeBank is a fast, simple and easy to use program to manage your personal
@@ -98,11 +92,9 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [homebank](https://packages.debian.org/trixie/homebank) `5.8.6-1` - Manage your personal accounts at home
 - ![](grey.png) _[gnucash](https://packages.debian.org/trixie/gnucash) `1:5.10-0.1+b1` - personal and small-business financial-accounting software_
 - ![](grey.png) _[grisbi](https://packages.debian.org/trixie/grisbi) `3.0.4-1` - personal finance management program_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Document viewers
 
 
@@ -110,9 +102,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/evince/48.1-3">
 
-<<<<<<< HEAD
 **[evince](https://packages.debian.org/trixie/evince)** - Document (PostScript, PDF) viewer
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Evince is a simple multi-page document viewer.  It can display and print
@@ -127,7 +117,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [evince](https://packages.debian.org/trixie/evince) `48.1-3` - Document (PostScript, PDF) viewer
 - ![](grey.png) _[mupdf](https://packages.debian.org/trixie/mupdf) `1.25.1+ds1-6` - lightweight PDF viewer_
 - ![](grey.png) _[apvlv](https://packages.debian.org/trixie/apvlv) `0.7.0-final-1` - PDF/EPUB/TXT/FB2/MOBI/CBZ/HTML ... viewer with Vim-like behaviour_
@@ -141,7 +130,6 @@
 #### E-book
 
 - ![](grey.png) _[calibre](https://packages.debian.org/trixie/calibre) `8.5.0+ds-1+deb13u1` - powerful and easy to use e-book manager_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### PDF editor/utilities
 
 
@@ -149,9 +137,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/pdfchain/1:0.4.4.2-2+b1">
 
-<<<<<<< HEAD
 **[pdfchain](https://packages.debian.org/trixie/pdfchain)** - graphical user interface for the PDF Tool Kit
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  The package includes features designed to handle PDF files in a easy
@@ -163,7 +149,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [pdfchain](https://packages.debian.org/trixie/pdfchain) `1:0.4.4.2-2+b1` - graphical user interface for the PDF Tool Kit
 - ![](green.png) [pdfgrep](https://packages.debian.org/trixie/pdfgrep) `2.2.0-0.1+b2` - search in pdf files for strings matching a regular expression
 - ![](green.png) [poppler-utils](https://packages.debian.org/trixie/poppler-utils) `25.03.0-5+deb13u2` - PDF utilities (based on Poppler)
@@ -202,7 +187,6 @@
 - ![](grey.png) _[cherrytree](https://packages.debian.org/trixie/cherrytree) `1.2.0+dfsg-1` - hierarchical note taking application_
 - ![](grey.png) _[hamster-time-tracker](https://packages.debian.org/trixie/hamster-time-tracker) `3.0.3-3` - time tracking application for GNOME_
 - ![](grey.png) _[tomboy-ng](https://packages.debian.org/trixie/tomboy-ng) `0.42-1` - Tomboy Notes rewritten to ease installation and cross platform_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Image scanning
 
 
@@ -210,9 +194,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/simple-scan/46.0-2">
 
-<<<<<<< HEAD
 **[simple-scan](https://packages.debian.org/trixie/simple-scan)** - Simple Scanning Utility
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Simple Scan is an easy-to-use application, designed to let users
@@ -224,7 +206,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [simple-scan](https://packages.debian.org/trixie/simple-scan) `46.0-2` - Simple Scanning Utility
 - ![](green.png) [imagemagick](https://packages.debian.org/trixie/imagemagick) `8:7.1.1.43+dfsg1-1+deb13u5` - image manipulation programs -- binaries
 - ![](green.png) [sane-utils](https://packages.debian.org/trixie/sane-utils) `1.3.1-3+b1` - API library for scanners -- utilities
@@ -238,7 +219,6 @@
 - ![](grey.png) _[unpaper](https://packages.debian.org/trixie/unpaper) `7.0.0-3+b2` - post-processing tool for scanned pages_
 - ![](grey.png) _[yagf](https://packages.debian.org/trixie/yagf) `0.9.5+repack1-1+b1` - graphical interface for cuneiform and tesseract_
 - ![](grey.png) _[ocrad](https://packages.debian.org/trixie/ocrad) `0.29-1` - optical character recognition program_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Printing
 
 
@@ -246,9 +226,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/system-config-printer/1.5.18-4">
 
-<<<<<<< HEAD
 **[system-config-printer](https://packages.debian.org/trixie/system-config-printer)** - graphical interface to configure the printing system
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  System-config-printer is a GUI written in Python using GTK+ to
@@ -261,7 +239,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [cups](https://packages.debian.org/trixie/cups) `2.4.10-3+deb13u2` - Common UNIX Printing System(tm) - PPD/driver support, web interface
 - ![](green.png) [cups-client](https://packages.debian.org/trixie/cups-client) `2.4.10-3+deb13u2` - Common UNIX Printing System(tm) - client programs (SysV)
 - ![](green.png) [gutenprint-locales](https://packages.debian.org/trixie/gutenprint-locales) `5.3.4.20220624T01008808d602-4` - locale data files for Gutenprint
@@ -274,7 +251,6 @@
 - ![](green.png) [cups-browsed](https://packages.debian.org/trixie/cups-browsed) `1.28.17-6+deb13u1` - OpenPrinting CUPS Filters - cups-browsed
 - ![](grey.png) _[hplip-gui](https://packages.debian.org/trixie/hplip-gui) `3.22.10+dfsg0-8.1` - HP Linux Printing and Imaging - GUI utilities (Qt-based)_
 - ![](grey.png) _[colord](https://packages.debian.org/trixie/colord) `1.4.7-3` - system service to manage device colour profiles -- system daemon_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Fonts
 
 
@@ -282,9 +258,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/fonts-hack-ttf/3.003-3">
 
-<<<<<<< HEAD
 *[fonts-hack-ttf](https://packages.debian.org/trixie/fonts-hack-ttf)** - Hack TrueType fonts (transitional package for fonts-hack)
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  This package used to contain the TTF variants of the Hack font, which
@@ -295,7 +269,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
  ![](green.png) [fonts-averia-gwf](https://packages.debian.org/trixie/fonts-averia-gwf) `1.00-3.1` - Avería GWF font family
 - ![](green.png) [fonts-breip](https://packages.debian.org/trixie/fonts-breip) `1:0.5.1-3` - informal handwriting font
 - ![](green.png) [fonts-cabinsketch](https://packages.debian.org/trixie/fonts-cabinsketch) `1.02-3` - playful sister of the Cabin font family
@@ -350,4 +323,3 @@
 - ![](grey.png) _[fonts-train](https://packages.debian.org/trixie/fonts-train) `1.100-1` - gothic-style typeface made with an outer and inner line_
 - ![](grey.png) _[fonts-vollkorn](https://packages.debian.org/trixie/fonts-vollkorn) `4.105-3` - serif body text type_
 - ![](grey.png) _[fonts-yanone-kaffeesatz](https://packages.debian.org/trixie/fonts-yanone-kaffeesatz) `2.0+git20211102+ds-2` - Font in six weights, reminiscent of 1920s coffee house typography_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)

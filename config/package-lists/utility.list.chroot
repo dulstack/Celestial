@@ -47,7 +47,6 @@ catfish
 #gnome-split # bookworm only
 
 #Section: Desktop environment
-<<<<<<< HEAD
 kde-plasma-desktop
 sddm
 #Description: xfce4
@@ -62,7 +61,6 @@ gmrun
 #xfce4-weather-plugin
 #xfce4-netload-plugin
 #xfce4-pulseaudio-plugin
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #Alt: plank
 #Alt: kupfer
 #Alt: gnome-pie
@@ -70,9 +68,7 @@ gmrun
 #Alt: synapse
 #Alt: zeitgeist
 #Alt: zeitgeist-datahub
-<<<<<<< HEAD
 #Alt: compton
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #compton-conf # bookworm only
 
 #Section: Archive management
@@ -176,9 +172,7 @@ vim-tiny
 
 #Section: Screenshots
 #Description: xfce4-screenshooter
-<<<<<<< HEAD
 #xfce4-screenshooter
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #Alt: scrot
 #Alt: gnome-screenshot
 #Alt: flameshot
@@ -237,9 +231,7 @@ redshift-gtk
 #Alt: cdrdao
 
 #Section: Desktop configuration utilities
-<<<<<<< HEAD
 #xfce4-settings
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 gnome-system-tools
 menulibre
 dconf-editor
@@ -250,13 +242,11 @@ dconf-gsettings-backend
 
 #Section: Power management
 #Description: xfce4-power-manager
-<<<<<<< HEAD
 #xfce4-power-manager
 #xfce4-battery-plugin
 tlp
 radeontool
 bumblebee
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 vbetool
 powertop
 usbutils
@@ -266,9 +256,7 @@ acpi-support-base
 fancontrol
 rfkill
 pm-utils
-<<<<<<< HEAD
 #Alt: bumblebee
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #Alt: laptop-mode-tools
 #Alt: powerdebug
 #Alt: powerstat
@@ -340,9 +328,7 @@ gtk2-engines-murrine
 gtk2-engines-pixbuf
 xdg-user-dirs-gtk
 libfile-mimeinfo-perl
-<<<<<<< HEAD
 distrobox
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #Alt: zenity
 #Alt: conky-all
 #Alt: randtype

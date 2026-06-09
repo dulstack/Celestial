@@ -6,7 +6,6 @@
 
 #### Version control
 
-<<<<<<< HEAD
 - ![](green.png) [git](https://packages.debian.org/trixie/git) `1:2.47.3-0+deb13u1` - fast, scalable, distributed revision control system
 - ![](green.png) [colordiff](https://packages.debian.org/trixie/colordiff) `1.0.21-1` - tool to colorize 'diff' output
 - ![](green.png) [dwdiff](https://packages.debian.org/trixie/dwdiff) `2.1.4-2+b3` - diff program that operates word by word
@@ -175,4 +174,3 @@
 - ![](grey.png) _[fastboot](https://packages.debian.org/trixie/fastboot) `1:34.0.5-12` - Android fastboot tool_
 - ![](grey.png) _[adb](https://packages.debian.org/trixie/adb) `1:34.0.5-12` - Android Debug Bridge_
 - ![](grey.png) _[fastboot](https://packages.debian.org/trixie/fastboot) `1:34.0.5-12` - Android fastboot tool_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)

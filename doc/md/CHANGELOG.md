@@ -3,7 +3,6 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-<<<<<<< HEAD
 
 ## [v5.0.0](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - UNRELEASED
 
@@ -60,7 +59,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ---------------------
 
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 ## [v4.2.1](https://gitlab.com/nodiscc/debian-live-config/releases/tag/4.2.1) - 2025-02-26
 
 ### Fixed

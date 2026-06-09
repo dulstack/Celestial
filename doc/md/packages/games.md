@@ -6,7 +6,6 @@
 
 #### Games
 
-<<<<<<< HEAD
 - ![](grey.png) _[lutris](https://packages.debian.org/trixie/lutris) `0.5.20` - video game preservation platform_
 - ![](grey.png) _[cmatrix](https://packages.debian.org/trixie/cmatrix) `2.0-6` - simulates the display from "The Matrix"_
 - ![](grey.png) _[cmatrix-xfont](https://packages.debian.org/trixie/cmatrix-xfont) `2.0-6` - X11 font for cmatrix_
@@ -103,4 +102,3 @@
 - ![](grey.png) _[dosbox](https://packages.debian.org/trixie/dosbox) `0.74-3-5+b1` - x86 emulator with Tandy/Herc/CGA/EGA/VGA/SVGA graphics, sound and DOS_
 - ![](grey.png) _[games-emulator](https://packages.debian.org/trixie/games-emulator) `5` - Debian's emulators for games_
 - ![](grey.png) _[dolphin-emu](https://packages.debian.org/trixie/dolphin-emu) `2503+dfsg-1+deb13u1` - Gamecube and Wii emulator_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)

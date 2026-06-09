@@ -1,15 +1,11 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 <channel name="xfce4-desktop" version="1.0">
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
-<<<<<<< HEAD
         <property name="image-path" type="string" value="/usr/share/desktop-base/ceratopsian-theme/wallpaper/contents/images/1920x1080.svg"/>
         <property name="image-show" type="bool" value="true"/>
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
       </property>
     </property>
     <property name="single-workspace-mode" type="bool" value="true"/>
@@ -24,6 +20,4 @@
   <property name="desktop-menu" type="empty">
     <property name="show" type="bool" value="false"/>
   </property>
-<<<<<<< HEAD
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 </channel>

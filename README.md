@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![logo](https://github.com/Aclevo/Celestial/blob/main/assets/png/Celestial-side.png)
 
 **This is the official base source code of Celestial Linux by Aclevo**.Fork of https://gitlab.com/nodiscc/debian-live-config
@@ -18,4 +17,3 @@ To build from source you need to have the debian installed,root privilages and c
 `sudo lb chroot`<br/>
 `sudo lb installer`<br/>
 `sudo lb binary`
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)

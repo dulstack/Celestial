@@ -11,9 +11,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/ristretto/0.13.3-1">
 
-<<<<<<< HEAD
 **[ristretto](https://packages.debian.org/trixie/ristretto)** - lightweight picture-viewer for the Xfce desktop environment
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Ristretto is a fast and lightweight picture-viewer for the Xfce desktop
@@ -24,11 +22,9 @@
 -----------------------
 
 
-<<<<<<< HEAD
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gimp/3.0.4-3+deb13u6">
 
 **[gimp](https://packages.debian.org/trixie/gimp)** - GNU Image Manipulation Program
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  GIMP is an advanced picture editor. You can use it to edit, enhance, and
@@ -43,7 +39,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [gimp](https://packages.debian.org/trixie/gimp) `3.0.4-3+deb13u6` - GNU Image Manipulation Program
 - ![](green.png) [gimp-data-extras](https://packages.debian.org/trixie/gimp-data-extras) `1:2.0.4-0.2` - Extra brushes and patterns for GIMP
 - ![](green.png) [gimp-texturize](https://packages.debian.org/trixie/gimp-texturize) `3.0+ds-1` - generates large textures from a small sample
@@ -63,7 +58,6 @@
 - ![](grey.png) _[pencil2d](https://packages.debian.org/trixie/pencil2d) `0.7.0-1` - Create hand-drawn animation using both bitmap and vector graphics_
 - ![](grey.png) _[dia](https://packages.debian.org/trixie/dia) `0.98+git20250126-2` - Diagram editor_
 - ![](grey.png) _[birdfont](https://packages.debian.org/trixie/birdfont) `2.33.6-1` - font editor that lets you create outline vector graphics and export fonts_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Drawing
 
 
@@ -71,9 +65,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/xournal/1:0.4.8.2016-9">
 
-<<<<<<< HEAD
 **[xournal](https://packages.debian.org/trixie/xournal)** - GTK+ Application for note taking
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Xournal is a GTK+ application for notetaking, sketching and
@@ -85,7 +77,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [xournal](https://packages.debian.org/trixie/xournal) `1:0.4.8.2016-9` - GTK+ Application for note taking
 - ![](grey.png) _[akira](https://packages.debian.org/trixie/akira) `0.0.16-2+b1` - user experience design tool_
 - ![](grey.png) _[xournalpp](https://packages.debian.org/trixie/xournalpp) `1.2.6-1` - Xournal++ - Open source hand note-taking program_
@@ -115,17 +106,14 @@
 #### Color grading
 
 - ![](grey.png) _[colorhug-client](https://packages.debian.org/trixie/colorhug-client) `0.2.8-6` - Tools for the Hughski Colorimeter_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
-#### Diagram editors
+### Diagram editors
 
 
 </sub>
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/dia/0.98+git20250126-2">
 
-<<<<<<< HEAD
 **[dia](https://packages.debian.org/trixie/dia)** - Diagram editor
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Dia is an editor for diagrams, graphs, charts etc. There is support for UML
@@ -138,7 +126,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [dia](https://packages.debian.org/trixie/dia) `0.98+git20250126-2` - Diagram editor
 - ![](green.png) [dia-shapes](https://packages.debian.org/trixie/dia-shapes) `0.6.0-5` - Diagram editor (additional shapes)
 - ![](green.png) [gsfonts-x11](https://packages.debian.org/trixie/gsfonts-x11) `2:20200910-8` - transitional dummy package (gsfonts-x11 -> fonts-urw-base35)
@@ -206,4 +193,3 @@
 - ![](grey.png) _[advancecomp](https://packages.debian.org/trixie/advancecomp) `2.5-1` - collection of recompression utilities_
 - ![](grey.png) _[caca-utils](https://packages.debian.org/trixie/caca-utils) `0.99.beta20-5` - text mode graphics utilities_
 - ![](grey.png) _[timg](https://packages.debian.org/trixie/timg) `1.6.0-1+b1` - terminal image and video viewer_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)

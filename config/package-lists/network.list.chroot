@@ -89,7 +89,6 @@ rsync
 #wormhole-rs # sid only
 
 #Section: Bittorrent
-<<<<<<< HEAD
 #Description: transmission-gtk
 transmission-gtk
 transmission-cli
@@ -97,16 +96,13 @@ transmission-cli
 #Alt: deluge-gtk
 #Alt: deluge-console
 #Alt: deluge-web
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #Alt: transmission-daemon
 #Alt: transmission-remote-gtk
 #Alt: uget
 #Alt: aria2
 #Alt: rtorrent
 #Alt: btfs
-<<<<<<< HEAD
 #Alt: nicotine
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #amule # sid only
 #amule-gnome-support # sid only
 #fragments # sid only
@@ -139,9 +135,7 @@ wget
 #Alt: newsboat
 #Alt: gnome-feeds
 #Alt: tickr
-<<<<<<< HEAD
 #Alt: rss2email
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #feedreader # sid only
 #quiterss # bookworm only
 
@@ -155,9 +149,7 @@ wget
 #Section: Network management
 #Description: network-manager-gnome
 network-manager-gnome
-<<<<<<< HEAD
 network-manager-applet
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 network-manager-openvpn-gnome
 wireguard
 dnsmasq-base

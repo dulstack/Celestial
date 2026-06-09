@@ -9,11 +9,9 @@
 
 </sub>
 
-<<<<<<< HEAD
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/firefox-esr/140.8.0esr-1~deb13u1">
 
 **[firefox-esr](https://packages.debian.org/trixie/firefox-esr)** - Mozilla Firefox web browser - Extended Support Release (ESR)
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Firefox ESR is a powerful, extensible web browser with support for modern
@@ -24,7 +22,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [firefox-esr](https://packages.debian.org/trixie/firefox-esr) `140.8.0esr-1~deb13u1` - Mozilla Firefox web browser - Extended Support Release (ESR)
 - ![](green.png) [firefox-esr-l10n-fr](https://packages.debian.org/trixie/firefox-esr-l10n-fr) `140.8.0esr-1~deb13u1` - French language package for Firefox ESR
 - ![](green.png) [webext-ublock-origin-firefox](https://packages.debian.org/trixie/webext-ublock-origin-firefox) `1.67.0+dfsg-1~deb13u1` - lightweight and efficient ads, malware, trackers blocker (Firefox)
@@ -55,7 +52,6 @@
 - ![](grey.png) _[mcabber](https://packages.debian.org/trixie/mcabber) `1.1.2-2+b2` - small Jabber (XMPP) console client_
 - ![](grey.png) _[weechat](https://packages.debian.org/trixie/weechat) `4.6.3-1` - Fast, light and extensible chat client (metapackage)_
 - ![](grey.png) _[purple-xmpp-http-upload](https://packages.debian.org/trixie/purple-xmpp-http-upload) `0.2.4-2.1` - HTTP File Upload plugin for libpurple_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### VoIP/videoconference
 
 
@@ -63,9 +59,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/mumble/1.5.735-5">
 
-<<<<<<< HEAD
 **[mumble](https://packages.debian.org/trixie/mumble)** - Low latency encrypted VoIP client
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Mumble is a low-latency, high quality voice chat program for gaming.
@@ -82,19 +76,15 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [mumble](https://packages.debian.org/trixie/mumble) `1.5.735-5` - Low latency encrypted VoIP client
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Mail clients
 
 
 </sub>
 
-<<<<<<< HEAD
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunderbird/1:140.8.0esr-1~deb13u1">
 
 **[thunderbird](https://packages.debian.org/trixie/thunderbird)** - mail/news client with RSS, chat and integrated spam filter support
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Thunderbird is an mail client suitable for free distribution. The goal of
@@ -110,7 +100,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [thunderbird](https://packages.debian.org/trixie/thunderbird) `1:140.8.0esr-1~deb13u1` - mail/news client with RSS, chat and integrated spam filter support
 - ![](green.png) [thunderbird-l10n-fr](https://packages.debian.org/trixie/thunderbird-l10n-fr) `1:140.8.0esr-1~deb13u1` - French language package for Thunderbird
 - ![](grey.png) _[geary](https://packages.debian.org/trixie/geary) `46.0-7` - lightweight email client designed for the GNOME desktop_
@@ -144,13 +133,11 @@
 - ![](grey.png) _[pastebinit](https://packages.debian.org/trixie/pastebinit) `1.7.1-1` - command-line pastebin client_
 - ![](grey.png) _[onionshare-cli](https://packages.debian.org/trixie/onionshare-cli) `2.6.3-1` - Share a file over Tor Hidden Services anonymously and securely - cli_
 - ![](grey.png) _[owncloud-client](https://packages.debian.org/trixie/owncloud-client) `5.3.2.15463+dfsg-1` - folder synchronization with an ownCloud server - GUI_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Bittorrent
 
 
 </sub>
 
-<<<<<<< HEAD
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/qbittorrent/5.1.0-2">
 
 **[qbittorrent](https://packages.debian.org/trixie/qbittorrent)** - bittorrent client based on libtorrent-rasterbar with a Qt5 GUI
@@ -159,14 +146,12 @@
  BitTorrent client written in C++ and based on libtorrent-rasterbar with a
  Qt5 user interface. qBittorrent is a feature rich but lightweight client
  that is very similar to uTorrent. Its main features are:
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 <sub>
 
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [qbittorrent](https://packages.debian.org/trixie/qbittorrent) `5.1.0-2` - bittorrent client based on libtorrent-rasterbar with a Qt5 GUI
 - ![](grey.png) _[deluge-gtk](https://packages.debian.org/trixie/deluge-gtk) `2.2.0-1` - multi-interface BitTorrent client (graphical UI)_
 - ![](grey.png) _[deluge-console](https://packages.debian.org/trixie/deluge-console) `2.2.0-1` - multi-interface BitTorrent client (text UI)_
@@ -180,17 +165,14 @@
 - ![](grey.png) _[rtorrent](https://packages.debian.org/trixie/rtorrent) `0.9.8-1.1` - ncurses BitTorrent client based on LibTorrent from rakshasa_
 - ![](grey.png) _[btfs](https://packages.debian.org/trixie/btfs) `2.24-1+b3` - access torrent files as a filesystem_
 - ![](grey.png) _[nicotine](https://packages.debian.org/trixie/nicotine) `3.3.10-1` - graphical client for the Soulseek peer-to-peer network_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Media download
 
 
 </sub>
 
-<<<<<<< HEAD
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/yt-dlp/2026.02.21-1~bpo13+1">
 
 **[yt-dlp](https://packages.debian.org/trixie/yt-dlp)** - downloader of videos from YouTube and other sites
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
@@ -202,10 +184,8 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [yt-dlp](https://packages.debian.org/trixie/yt-dlp) `2026.02.21-1~bpo13+1` - downloader of videos from YouTube and other sites
 - ![](grey.png) _[streamlink](https://packages.debian.org/trixie/streamlink) `7.3.0-2` - CLI for extracting video streams from various websites to a video player_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Downloaders/web crawlers
 
 
@@ -213,9 +193,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/kiwix/2.4.1-1.1+b1">
 
-<<<<<<< HEAD
 **[kiwix](https://packages.debian.org/trixie/kiwix)** - offline Wikipedia reader
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Kiwix is an offline reader and manager for online content
@@ -229,7 +207,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [curl](https://packages.debian.org/trixie/curl) `8.14.1-2+deb13u2` - command line tool for transferring data with URL syntax
 - ![](green.png) [wget](https://packages.debian.org/trixie/wget) `1.25.0-2` - retrieves files from the web
 - ![](grey.png) _[kiwix](https://packages.debian.org/trixie/kiwix) `2.4.1-1.1+b1` - offline Wikipedia reader_
@@ -252,7 +229,6 @@
 - ![](grey.png) _[samba-vfs-modules](https://packages.debian.org/trixie/samba-vfs-modules) `2:4.22.6+dfsg-0+deb13u1` - Samba Virtual FileSystem plugins (transitional package)_
 - ![](grey.png) _[smbclient](https://packages.debian.org/trixie/smbclient) `2:4.22.6+dfsg-0+deb13u1` - command-line SMB/CIFS clients for Unix_
 - ![](grey.png) _[servefile](https://packages.debian.org/trixie/servefile) `0.5.4-3.2` - serve or receive files from shell via a small HTTP server_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Network management
 
 
@@ -260,9 +236,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/network-manager-gnome/1.36.0-3+b1">
 
-<<<<<<< HEAD
 **[network-manager-gnome](https://packages.debian.org/trixie/network-manager-gnome)** - transitional package for network-manager-applet and nm-connection-editor
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  NetworkManager is a system network service that manages your network devices
@@ -276,7 +250,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [network-manager-gnome](https://packages.debian.org/trixie/network-manager-gnome) `1.36.0-3+b1` - transitional package for network-manager-applet and nm-connection-editor
 - ![](green.png) [network-manager-applet](https://packages.debian.org/trixie/network-manager-applet) `1.36.0-3+b1` - network management framework (notification area applet)
 - ![](green.png) [network-manager-openvpn-gnome](https://packages.debian.org/trixie/network-manager-openvpn-gnome) `1.12.3-1~deb13u1` - network management framework (OpenVPN plugin GNOME GUI)
@@ -306,7 +279,6 @@
 - ![](grey.png) _[usb-modeswitch](https://packages.debian.org/trixie/usb-modeswitch) `2.6.1-4+b2` - mode switching tool for controlling "flip flop" USB devices_
 - ![](grey.png) _[kdeconnect](https://packages.debian.org/trixie/kdeconnect) `25.04.2-1+deb13u1` - connect smartphones to your desktop devices_
 - ![](grey.png) _[fdroidcl](https://packages.debian.org/trixie/fdroidcl) `0.7.0-1+b11` - F-Droid desktop client_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Wireless
 
 
@@ -314,9 +286,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/blueman/2.4.4-1">
 
-<<<<<<< HEAD
 **[blueman](https://packages.debian.org/trixie/blueman)** - Graphical bluetooth manager
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Blueman is a GTK+ bluetooth management utility for GNOME using bluez D-Bus
@@ -327,7 +297,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [blueman](https://packages.debian.org/trixie/blueman) `2.4.4-1` - Graphical bluetooth manager
 - ![](green.png) [bluetooth](https://packages.debian.org/trixie/bluetooth) `5.82-1.1` - Bluetooth support (metapackage)
 - ![](green.png) [blueman](https://packages.debian.org/trixie/blueman) `2.4.4-1` - Graphical bluetooth manager
@@ -337,7 +306,6 @@
 - ![](grey.png) _[hostapd](https://packages.debian.org/trixie/hostapd) `2:2.10-24` - access point and authentication server for Wi-Fi and Ethernet_
 - ![](grey.png) _[aircrack-ng](https://packages.debian.org/trixie/aircrack-ng) `1:1.7+git20230807.4bf83f1a-2` - wireless WEP/WPA cracking utilities_
 - ![](grey.png) _[btscanner](https://packages.debian.org/trixie/btscanner) `2.1-9` - ncurses-based scanner for Bluetooth devices_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Firewall
 
 
@@ -345,9 +313,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gufw/24.04.0-3">
 
-<<<<<<< HEAD
 **[gufw](https://packages.debian.org/trixie/gufw)** - graphical user interface for ufw
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  gufw is an easy and intuitive way to manage your Linux firewall. It supports
@@ -359,7 +325,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [ufw](https://packages.debian.org/trixie/ufw) `0.36.2-9` - program for managing a Netfilter firewall
 - ![](green.png) [gufw](https://packages.debian.org/trixie/gufw) `24.04.0-3` - graphical user interface for ufw
 - ![](green.png) [iptables](https://packages.debian.org/trixie/iptables) `1.8.11-2` - administration tools for packet filtering and NAT
@@ -370,7 +335,6 @@
 - ![](grey.png) _[ipset-persistent](https://packages.debian.org/trixie/ipset-persistent) `1.0.23` - boot-time loader for netfilter rules, ipset plugin_
 - ![](grey.png) _[crowdsec](https://packages.debian.org/trixie/crowdsec) `1.4.6-10+b4` - lightweight and collaborative security engine_
 - ![](grey.png) _[opensnitch](https://packages.debian.org/trixie/opensnitch) `1.6.9-3` - GNU/Linux interactive application firewall_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Network diagnostic/monitoring
 
 
@@ -378,9 +342,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gnome-nettool/42.0-2.1">
 
-<<<<<<< HEAD
 **[gnome-nettool](https://packages.debian.org/trixie/gnome-nettool)** - network information tool for GNOME
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  GNOME Nettool is a network information tool which provides user interfaces for
@@ -399,7 +361,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [gnome-nettool](https://packages.debian.org/trixie/gnome-nettool) `42.0-2.1` - network information tool for GNOME
 - ![](green.png) [traceroute](https://packages.debian.org/trixie/traceroute) `1:2.1.6-1` - Traces the route taken by packets over an IPv4/IPv6 network
 - ![](green.png) [bind9-dnsutils](https://packages.debian.org/trixie/bind9-dnsutils) `1:9.20.18-1~deb13u1` - Clients provided with BIND 9
@@ -474,7 +435,6 @@
 - ![](grey.png) _[remmina-plugin-vnc](https://packages.debian.org/trixie/remmina-plugin-vnc) `1.4.39+dfsg-1` - VNC plugin for Remmina_
 - ![](grey.png) _[weevely](https://packages.debian.org/trixie/weevely) `4.0.2-1` - Stealth tiny web shell_
 - ![](grey.png) _[x2goclient](https://packages.debian.org/trixie/x2goclient) `4.1.2.3-4` - X2Go Client application (Qt5)_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### SSH
 
 
@@ -482,9 +442,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/openssh-server/1:10.0p1-7">
 
-<<<<<<< HEAD
 **[openssh-server](https://packages.debian.org/trixie/openssh-server)** - secure shell (SSH) server, for secure access from remote machines
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  This is the portable version of OpenSSH, a free implementation of
@@ -496,7 +454,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [openssh-server](https://packages.debian.org/trixie/openssh-server) `1:10.0p1-7` - secure shell (SSH) server, for secure access from remote machines
 - ![](green.png) [openssh-client](https://packages.debian.org/trixie/openssh-client) `1:10.0p1-7` - secure shell (SSH) client, for secure access to remote machines
 - ![](grey.png) _[lightdm-remote-session-x2go](https://packages.debian.org/trixie/lightdm-remote-session-x2go) `0.0.2.0-2` - LightDM Remote Logon Support for X2Go sessions_
@@ -556,4 +513,3 @@
 
 - ![](grey.png) _[ipmitool](https://packages.debian.org/trixie/ipmitool) `1.8.19-9` - utility for IPMI control with kernel driver or LAN interface (daemon)_
 - ![](grey.png) _[gwakeonlan](https://packages.debian.org/trixie/gwakeonlan) `0.8.6-1` - wakes up your machines using Wake on LAN_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)

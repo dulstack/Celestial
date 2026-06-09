@@ -5,11 +5,9 @@
 
 project = 'debian-live-config'
 author = 'nodiscc@gmail.com'
-<<<<<<< HEAD
 
 version = '5.0.0'
 release = '5.0.0'
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 html_show_copyright = True
 
 # -- General configuration ---------------------------------------------------

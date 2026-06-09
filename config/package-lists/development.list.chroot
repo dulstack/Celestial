@@ -51,9 +51,7 @@ manpages-dev
 #Alt: ack
 #Alt: bd
 #Alt: beep
-<<<<<<< HEAD
 #Alt: command-not-found
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #Alt: detox
 #Alt: grc
 #Alt: pv

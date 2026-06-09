@@ -9,21 +9,18 @@
 
 </sub>
 
-<<<<<<< HEAD
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gnome-software/48.3-2">
 
 **[gnome-software](https://packages.debian.org/trixie/gnome-software)** - Software Center for GNOME
 
 
  Software lets you install and update applications and system extensions.
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 <sub>
 
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [gnome-software](https://packages.debian.org/trixie/gnome-software) `48.3-2` - Software Center for GNOME
 - ![](green.png) [gnome-software-plugin-flatpak](https://packages.debian.org/trixie/gnome-software-plugin-flatpak) `48.3-2` - Flatpak support for GNOME Software
 - ![](green.png) [gnome-software-plugin-deb](https://packages.debian.org/trixie/gnome-software-plugin-deb) `48.3-2` - .deb support for GNOME Software
@@ -62,7 +59,6 @@
 - ![](grey.png) _[reportbug](https://packages.debian.org/trixie/reportbug) `13.2.0` - reports bugs in the Debian distribution_
 - ![](grey.png) _[nala](https://packages.debian.org/trixie/nala) `0.16.0` - Commandline frontend for the APT package manager_
 - ![](grey.png) _[gdebi](https://packages.debian.org/trixie/gdebi) `0.9.5.8` - simple tool to view and install deb files - GNOME GUI_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Task management/monitoring
 
 
@@ -70,9 +66,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/xfce4-taskmanager/1.5.8-1">
 
-<<<<<<< HEAD
 **[xfce4-taskmanager](https://packages.debian.org/trixie/xfce4-taskmanager)** - process manager for the Xfce4 Desktop Environment
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  A GUI application for monitoring and controlling running processes,
@@ -83,7 +77,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [xfce4-taskmanager](https://packages.debian.org/trixie/xfce4-taskmanager) `1.5.8-1` - process manager for the Xfce4 Desktop Environment
 - ![](green.png) [htop](https://packages.debian.org/trixie/htop) `3.4.1-5` - interactive processes viewer
 - ![](green.png) [iotop](https://packages.debian.org/trixie/iotop) `0.6-42-ga14256a-0.3+b1` - simple top-like I/O monitor
@@ -114,7 +107,6 @@
 - ![](grey.png) _[glances](https://packages.debian.org/trixie/glances) `4.3.1+dfsg-1` - Curses-based monitoring tool_
 - ![](grey.png) _[btop](https://packages.debian.org/trixie/btop) `1.3.2-0.1` - Modern and colorful command line resource monitor that shows usage and stats_
 - ![](grey.png) _[bpytop](https://packages.debian.org/trixie/bpytop) `1.0.68-2` - Resource monitor that shows usage and stats_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Backup
 
 
@@ -122,9 +114,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/deja-dup/45.2-3+b1">
 
-<<<<<<< HEAD
 **[deja-dup](https://packages.debian.org/trixie/deja-dup)** - Backup utility
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Déjà Dup is a simple backup tool. It hides the complexity of backing up the
@@ -136,7 +126,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [deja-dup](https://packages.debian.org/trixie/deja-dup) `45.2-3+b1` - Backup utility
 - ![](grey.png) _[backintime-qt](https://packages.debian.org/trixie/backintime-qt) `1.5.5-1` - simple backup/snapshot system (graphical interface)_
 - ![](grey.png) _[tmfs](https://packages.debian.org/trixie/tmfs) `7-1+b1` - Apple Time Machine FUSE mount_
@@ -153,7 +142,6 @@
 - ![](grey.png) _[vorta](https://packages.debian.org/trixie/vorta) `0.10.3-1` - Desktop Client for Borg Backup_
 - ![](grey.png) _[rsnapshot](https://packages.debian.org/trixie/rsnapshot) `1.5.1-1` - local and remote filesystem snapshot utility_
 - ![](grey.png) _[borgbackup2](https://packages.debian.org/trixie/borgbackup2) `2.0.0b19-1` - deduplicating and compressing backup program (version 2.x)_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Disk management
 
 
@@ -161,9 +149,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gnome-disk-utility/46.1-2+b1">
 
-<<<<<<< HEAD
 **[gnome-disk-utility](https://packages.debian.org/trixie/gnome-disk-utility)** - manage and configure disk drives and media
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  GNOME Disks is a tool to manage disk drives and media:
@@ -178,9 +164,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gparted/1.6.0-2">
 
-<<<<<<< HEAD
 **[gparted](https://packages.debian.org/trixie/gparted)** - GNOME partition editor
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  GParted uses libparted to detect and manipulate devices and partition
@@ -197,10 +181,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/baobab/48.0-2+b1">
 
-<<<<<<< HEAD
 
 **[baobab](https://packages.debian.org/trixie/baobab)** - GNOME disk usage analyzer
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Disk Usage Analyzer is a graphical, menu-driven application to analyse
@@ -213,7 +195,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [gnome-disk-utility](https://packages.debian.org/trixie/gnome-disk-utility) `46.1-2+b1` - manage and configure disk drives and media
 - ![](green.png) [gparted](https://packages.debian.org/trixie/gparted) `1.6.0-2` - GNOME partition editor
@@ -246,7 +227,6 @@
 - ![](grey.png) _[disk-filltest](https://packages.debian.org/trixie/disk-filltest) `0.8.2-1` - Simple Tool to Detect Bad Disks by Filling with Random Data_
 - ![](grey.png) _[loggedfs](https://packages.debian.org/trixie/loggedfs) `0.9+ds-5` - User-controllable logging file system_
 - ![](grey.png) _[squashfuse](https://packages.debian.org/trixie/squashfuse) `0.5.2-0.2+b2` - FUSE filesystem to mount squashfs archives_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Data recovery
 
 
@@ -254,10 +234,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/testdisk/7.2-0.1">
 
-<<<<<<< HEAD
 
 **[testdisk](https://packages.debian.org/trixie/testdisk)** - Partition scanner and disk recovery tool, and PhotoRec file recovery tool
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  TestDisk checks the partition and boot sectors of your disks.
@@ -285,7 +263,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [testdisk](https://packages.debian.org/trixie/testdisk) `7.2-0.1` - Partition scanner and disk recovery tool, and PhotoRec file recovery tool
 - ![](grey.png) _[foremost](https://packages.debian.org/trixie/foremost) `1.5.7-11+b2` - forensic program to recover lost files_
@@ -297,7 +274,6 @@
 - ![](grey.png) _[safecopy](https://packages.debian.org/trixie/safecopy) `1.7-7` - data recovery tool for problematic or damaged media_
 - ![](grey.png) _[forensics-samples-all](https://packages.debian.org/trixie/forensics-samples-all) `1.1.4-5` - Set of files to help learn/test forensics tools and techniques (metapackage)_
 - ![](grey.png) _[forensics-full](https://packages.debian.org/trixie/forensics-full) `2.58` - Full forensics station (metapackage)_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### File cleaners/linters
 
 
@@ -305,10 +281,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/bleachbit/4.6.2-2">
 
-<<<<<<< HEAD
 
 **[bleachbit](https://packages.debian.org/trixie/bleachbit)** - delete unnecessary files from the system
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  BleachBit deletes unnecessary files to free valuable disk space, maintain
@@ -320,12 +294,10 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [bleachbit](https://packages.debian.org/trixie/bleachbit) `4.6.2-2` - delete unnecessary files from the system
 - ![](green.png) [localepurge](https://packages.debian.org/trixie/localepurge) `0.7.3.11` - reclaim disk space by removing unneeded localizations
 - ![](grey.png) _[czkawka-gui](https://packages.debian.org/trixie/czkawka-gui) `8.0.0-2` - Multi functional app to find duplicates, empty folders, similar images etc (GUI)_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Log viewers
 
 
@@ -333,10 +305,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gnome-logs/45.0-1">
 
-<<<<<<< HEAD
 
 **[gnome-logs](https://packages.debian.org/trixie/gnome-logs)** - viewer for the systemd journal
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  The GNOME Logs application is an application to view system logs
@@ -347,7 +317,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [gnome-logs](https://packages.debian.org/trixie/gnome-logs) `45.0-1` - viewer for the systemd journal
 - ![](green.png) [lnav](https://packages.debian.org/trixie/lnav) `0.12.4-1+deb13u1` - ncurses-based log file viewer
@@ -358,18 +327,15 @@
 - ![](grey.png) _[since](https://packages.debian.org/trixie/since) `1.1-7` - tail(1) work-alike that saves and uses state information_
 - ![](grey.png) _[multitail](https://packages.debian.org/trixie/multitail) `7.1.5-2` - view multiple logfiles windowed on console_
 - ![](grey.png) _[logswan](https://packages.debian.org/trixie/logswan) `2.1.15-1` - fast Web log analyzer using probabilistic data structures_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Virtualization
 
 
 </sub>
 
-<<<<<<< HEAD
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/virt-manager/1:5.0.0-5+deb13u1">
 
 **[virt-manager](https://packages.debian.org/trixie/virt-manager)** - desktop application for managing virtual machines
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  The virt-manager application is a desktop user interface for managing virtual
@@ -385,7 +351,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [virt-manager](https://packages.debian.org/trixie/virt-manager) `1:5.0.0-5+deb13u1` - desktop application for managing virtual machines
 - ![](green.png) [virtinst](https://packages.debian.org/trixie/virtinst) `1:5.0.0-5+deb13u1` - transitional dummy package for virt-install
@@ -425,7 +390,6 @@
 #### Java
 
 - ![](green.png) [default-jre](https://packages.debian.org/trixie/default-jre) `2:1.21-76` - Standard Java or Java compatible Runtime
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Display manager/screen locker
 
 
@@ -433,10 +397,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/lightdm/1.32.0-6+b2">
 
-<<<<<<< HEAD
 
 **[lightdm](https://packages.debian.org/trixie/lightdm)** - simple display manager
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  An X display manager that:
@@ -451,7 +413,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [lightdm](https://packages.debian.org/trixie/lightdm) `1.32.0-6+b2` - simple display manager
 - ![](green.png) [lightdm-gtk-greeter](https://packages.debian.org/trixie/lightdm-gtk-greeter) `2.0.9-1` - simple display manager (GTK+ greeter)
@@ -569,4 +530,3 @@
 - ![](green.png) [live-tools](https://packages.debian.org/trixie/live-tools) `1:20240525` - Live System Extra Components
 - ![](green.png) [eject](https://packages.debian.org/trixie/eject) `2.41-5` - ejects CDs and operates CD-Changers under Linux
 - ![](grey.png) _[installation-birthday](https://packages.debian.org/trixie/installation-birthday) `20` - Receive a message on system installation anniversary_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)

@@ -18,4 +18,3 @@
 # AllowAgentForwarding no
 # GatewayPorts no
 # X11Forwarding no
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)

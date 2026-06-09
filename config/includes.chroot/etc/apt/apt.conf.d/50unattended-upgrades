@@ -20,9 +20,7 @@
 // Within lines unattended-upgrades allows 2 macros whose values are
 // derived from /etc/debian_version:
 //   ${distro_id}            Installed origin.
-<<<<<<< HEAD
 //   ${distro_codename}      Installed codename (eg, "trixie")
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 Unattended-Upgrade::Origins-Pattern {
         // Codename based matching:
         // This will follow the migration of a release through different

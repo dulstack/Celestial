@@ -1,13 +1,11 @@
 # debian-live-config
 
-<<<<<<< HEAD
 
 [![](https://gitlab.com/nodiscc/debian-live-config/badges/master/pipeline.svg)](https://gitlab.com/nodiscc/debian-live-config/-/pipelines)
 
 [Debian GNU/Linux](https://www.debian.org/) desktop operating system for personal computers & workstations.
 
 ![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/debian-live-config-5.0.0-main.png)
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 ## Features
 
@@ -16,10 +14,8 @@
 - Good out-of-the-box experience with a focus on usability
 - Installation time < 10 minutes, without Internet access
 - Able to run [live](https://en.wikipedia.org/wiki/Live_USB) from USB drive (no installation required)
-<<<<<<< HEAD
 
 - Fits on a 4GB USB drive
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 - Only uses official Debian [stable](https://wiki.debian.org/DebianStable) + [backports](https://wiki.debian.org/Backports) packages and as few third-party components as possible
 - Reliable, low maintenance
 - Lightweight/low resource usage, good performance on low-end or recycled hardware
@@ -30,10 +26,8 @@ This repository contains the `live-build` configuration and scripts used to buil
 
 ## Download
 
-<<<<<<< HEAD
 
 **[![](download.png) Download .ISO image](https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-trixie-amd64.iso)** (64-bit)
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
 ## Documentation
@@ -54,12 +48,10 @@ This repository contains the `live-build` configuration and scripts used to buil
 
 ## Screenshots
 
-<<<<<<< HEAD
 
 ![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/debian-live-config-5.0.0-main.png)
 
 ![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/debian-live-config-5.0.0-windows.png)
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
 ## Source code

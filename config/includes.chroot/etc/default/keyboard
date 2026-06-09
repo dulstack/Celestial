@@ -3,9 +3,7 @@
 # Consult the keyboard(5) manual page.
 
 XKBMODEL="pc104"
-<<<<<<< HEAD
 XKBLAYOUT="us"
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 XKBVARIANT="oss"
 XKBOPTIONS=""
 

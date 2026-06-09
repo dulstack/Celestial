@@ -31,9 +31,7 @@ def get_package_metadata(package):
 	long_desc = re.sub(r'^[A-z].*', '', long_desc)
 	long_desc = long_desc.split('\n\n')[0]
 	screenshot_url = 'https://screenshots.debian.net/thumbnail-with-version/{}/{}'.format(package, version)
-<<<<<<< HEAD
 	pdo_url = 'https://packages.debian.org/trixie/{}'.format(package)
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 	return short_desc, long_desc, screenshot_url, pdo_url, version
 
 

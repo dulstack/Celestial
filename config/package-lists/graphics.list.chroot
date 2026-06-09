@@ -25,11 +25,9 @@ ristretto
 
 #Section: Image editors
 #Description: gimp
-<<<<<<< HEAD
 #gimp
 #gimp-data-extras
 #gimp-texturize
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 create-resources
 #Alt: gimp-help-fr
 #Alt: krita

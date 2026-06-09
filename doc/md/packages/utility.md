@@ -9,12 +9,10 @@
 
 </sub>
 
-<<<<<<< HEAD
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/thunar/4.20.2-1+deb13u1">
 
 **[thunar](https://packages.debian.org/trixie/thunar)** - File Manager for Xfce
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Thunar is the file manager designed to be the default file manager for the
@@ -25,7 +23,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [gvfs-backends](https://packages.debian.org/trixie/gvfs-backends) `1.57.2-2` - userspace virtual filesystem - backends
 - ![](green.png) [libglib2.0-bin](https://packages.debian.org/trixie/libglib2.0-bin) `2.84.4-3~deb13u2` - Programs for the GLib library
@@ -65,7 +62,6 @@
 - ![](grey.png) _[fd-find](https://packages.debian.org/trixie/fd-find) `10.2.0-1+b5` - Simple, fast and user-friendly alternative to find_
 - ![](grey.png) _[dupeguru](https://packages.debian.org/trixie/dupeguru) `4.3.1-4+b2` - GUI tool to find duplicate files in a system_
 - ![](grey.png) _[rdfind](https://packages.debian.org/trixie/rdfind) `1.6.0-1+b1` - find duplicate files utility_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Desktop environment
 
 
@@ -73,10 +69,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/xfce4/4.20.1">
 
-<<<<<<< HEAD
 
 **[xfce4](https://packages.debian.org/trixie/xfce4)** - Meta-package for the Xfce Lightweight Desktop Environment
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Xfce is a lightweight desktop environment for unix-like operating systems.
@@ -89,7 +83,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [xfdesktop4](https://packages.debian.org/trixie/xfdesktop4) `4.20.1-1` - Xfce desktop background, icons and root menu manager
 - ![](green.png) [xfwm4](https://packages.debian.org/trixie/xfwm4) `4.20.0-1` - window manager of the Xfce project
@@ -110,13 +103,11 @@
 - ![](grey.png) _[zeitgeist](https://packages.debian.org/trixie/zeitgeist) `1.0.4-5` - event logging framework_
 - ![](grey.png) _[zeitgeist-datahub](https://packages.debian.org/trixie/zeitgeist-datahub) `1.0.4-5+b3` - event logging framework - passive logging daemon_
 - ![](grey.png) _[compton](https://packages.debian.org/trixie/compton) `1-3+b1` - compositor for X11, based on xcompmgr_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Archive management
 
 
 </sub>
 
-<<<<<<< HEAD
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/engrampa/1.26.2-5">
 
@@ -124,14 +115,12 @@
 
 
  Engrampa is an archive manager for the MATE environment. It allows you to:
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 <sub>
 
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [engrampa](https://packages.debian.org/trixie/engrampa) `1.26.2-5` - archive manager for MATE
 - ![](green.png) [atool](https://packages.debian.org/trixie/atool) `0.39.0-14` - tool for managing file archives of various types
@@ -157,7 +146,6 @@
 - ![](grey.png) _[xarchiver](https://packages.debian.org/trixie/xarchiver) `1:0.5.4.25-2` - GTK+ frontend for most used compression formats_
 - ![](grey.png) _[p7zip-rar](https://packages.debian.org/trixie/p7zip-rar) `16.02+transitional.1` - transitional package_
 - ![](grey.png) _[gztool](https://packages.debian.org/trixie/gztool) `1.8.0-1` - gzip-compressed file indexer_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Password management/file/disk encryption
 
 
@@ -165,10 +153,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/keepassxc-full/2.7.10+dfsg1-1">
 
-<<<<<<< HEAD
 
 **[keepassxc-full](https://packages.debian.org/trixie/keepassxc-full)** - Cross Platform Password Manager
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  KeePassXC is a free/open-source password manager or safe which helps you
@@ -183,7 +169,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [keepassxc-full](https://packages.debian.org/trixie/keepassxc-full) `2.7.10+dfsg1-1` - Cross Platform Password Manager
 - ![](green.png) [seahorse](https://packages.debian.org/trixie/seahorse) `47.0.1-2` - GNOME front end for GnuPG
@@ -210,7 +195,6 @@
 - ![](grey.png) _[gtkcrypto](https://packages.debian.org/trixie/gtkcrypto) `1.0.2-2+b3` - GTK+ application for encrypting files and computing hashes_
 - ![](grey.png) _[luckyluks](https://packages.debian.org/trixie/luckyluks) `2.1.0-3` - GUI for creating and unlocking LUKS/TrueCrypt_
 - ![](grey.png) _[passes-gtk](https://packages.debian.org/trixie/passes-gtk) `0.10-2` - GTK-based digital pass manager_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Text editors
 
 
@@ -218,10 +202,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/mousepad/0.6.3-1">
 
-<<<<<<< HEAD
 
 **[mousepad](https://packages.debian.org/trixie/mousepad)** - simple Xfce oriented text editor
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Mousepad is a graphical text editor for Xfce based on Leafpad.
@@ -236,10 +218,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/nano/8.4-1">
 
-<<<<<<< HEAD
 
 **[nano](https://packages.debian.org/trixie/nano)** - small, friendly text editor inspired by Pico
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  GNU nano is an easy-to-use text editor originally designed as a replacement
@@ -251,7 +231,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [mousepad](https://packages.debian.org/trixie/mousepad) `0.6.3-1` - simple Xfce oriented text editor
 - ![](green.png) [nano](https://packages.debian.org/trixie/nano) `8.4-1` - small, friendly text editor inspired by Pico
@@ -285,7 +264,6 @@
 - ![](grey.png) _[mkgmap](https://packages.debian.org/trixie/mkgmap) `0.0.0+svn4923-2` - Generate Garmin maps from OpenStreetMap data_
 - ![](grey.png) _[gis-tasks](https://packages.debian.org/trixie/gis-tasks) `0.0.22` - Debian GIS tasks for tasksel_
 - ![](grey.png) _[gpsprune](https://packages.debian.org/trixie/gpsprune) `25.2-1` - visualize, edit, convert and prune GPS data_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Screenshots
 
 
@@ -293,10 +271,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/xfce4-screenshooter/1.11.1-1">
 
-<<<<<<< HEAD
 
 **[xfce4-screenshooter](https://packages.debian.org/trixie/xfce4-screenshooter)** - screenshots utility for Xfce
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Screenshooter is an utility for the Xfce Desktop Environment. It can take
@@ -308,13 +284,11 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [xfce4-screenshooter](https://packages.debian.org/trixie/xfce4-screenshooter) `1.11.1-1` - screenshots utility for Xfce
 - ![](grey.png) _[scrot](https://packages.debian.org/trixie/scrot) `1.12.1-1` - command line screen capture utility_
 - ![](grey.png) _[gnome-screenshot](https://packages.debian.org/trixie/gnome-screenshot) `41.0-3` - screenshot application for GNOME_
 - ![](grey.png) _[flameshot](https://packages.debian.org/trixie/flameshot) `12.1.0+ds-2` - Powerful yet simple-to-use screenshot software_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Clocks/timers
 
 
@@ -322,10 +296,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/alarm-clock-applet/0.4.1-5+b1">
 
-<<<<<<< HEAD
 
 **[alarm-clock-applet](https://packages.debian.org/trixie/alarm-clock-applet)** - alarm clock panel indicator
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Alarm Clock is a fully-featured alarm clock which resides in the notification
@@ -337,7 +309,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [alarm-clock-applet](https://packages.debian.org/trixie/alarm-clock-applet) `0.4.1-5+b1` - alarm clock panel indicator
 - ![](green.png) [tty-clock](https://packages.debian.org/trixie/tty-clock) `2.3+git.20211121.f2f847c-1` - simple terminal clock
@@ -346,7 +317,6 @@
 - ![](grey.png) _[stopwatch](https://packages.debian.org/trixie/stopwatch) `3.5-10` - Virtual stopwatch and timer_
 - ![](grey.png) _[xfce4-timer-plugin](https://packages.debian.org/trixie/xfce4-timer-plugin) `1.7.3-1` - timer plugin for Xfce panel_
 - ![](grey.png) _[screenruler](https://packages.debian.org/trixie/screenruler) `1.2.1-1` - measure objects on screen with a variety of metrics_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Calculators
 
 
@@ -354,10 +324,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gnome-calculator/1:48.1-2+b1">
 
-<<<<<<< HEAD
 
 **[gnome-calculator](https://packages.debian.org/trixie/gnome-calculator)** - GNOME desktop calculator
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  The GNOME calculator is a powerful graphical calculator with financial,
@@ -369,13 +337,11 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [gnome-calculator](https://packages.debian.org/trixie/gnome-calculator) `1:48.1-2+b1` - GNOME desktop calculator
 - ![](green.png) [bc](https://packages.debian.org/trixie/bc) `1.07.1-4` - GNU bc arbitrary precision calculator language
 - ![](green.png) [units](https://packages.debian.org/trixie/units) `2.24-1` - converts between different systems of units
 - ![](grey.png) _[num-utils](https://packages.debian.org/trixie/num-utils) `0.5-15` - programs for dealing with numbers from the command line_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Terminal emulators
 
 
@@ -383,10 +349,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/xfce4-terminal/1.1.4-1">
 
-<<<<<<< HEAD
 
 **[xfce4-terminal](https://packages.debian.org/trixie/xfce4-terminal)** - Xfce terminal emulator
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  This package contains Terminal, which is a lightweight and easy to use
@@ -398,7 +362,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [xfce4-terminal](https://packages.debian.org/trixie/xfce4-terminal) `1.1.4-1` - Xfce terminal emulator
 - ![](grey.png) _[lxterminal](https://packages.debian.org/trixie/lxterminal) `0.4.1-1` - LXDE terminal emulator_
@@ -413,7 +376,6 @@
 - ![](grey.png) _[stellarium](https://packages.debian.org/trixie/stellarium) `24.3-1` - real-time photo-realistic sky generator_
 - ![](grey.png) _[wxmaxima](https://packages.debian.org/trixie/wxmaxima) `24.02.1-1+b2` - GUI for the computer algebra system Maxima_
 - ![](grey.png) _[gramps](https://packages.debian.org/trixie/gramps) `6.0.1+dfsg-1` - Genealogical research program_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Color management
 
 
@@ -421,10 +383,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/redshift-gtk/1.12-4.2">
 
-<<<<<<< HEAD
 
 **[redshift-gtk](https://packages.debian.org/trixie/redshift-gtk)** - Adjusts the color temperature of your screen -- GUI
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  The color temperature is set according to the position of the sun. A
@@ -438,7 +398,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [redshift-gtk](https://packages.debian.org/trixie/redshift-gtk) `1.12-4.2` - Adjusts the color temperature of your screen -- GUI
 - ![](grey.png) _[workrave](https://packages.debian.org/trixie/workrave) `1.10.53-2` - Repetitive Strain Injury prevention tool_
@@ -458,7 +417,6 @@
 - ![](green.png) [dconf-gsettings-backend](https://packages.debian.org/trixie/dconf-gsettings-backend) `0.40.0-5` - simple configuration storage system - GSettings back-end
 - ![](grey.png) _[gnome-tweaks](https://packages.debian.org/trixie/gnome-tweaks) `46.1-1` - tool to adjust advanced configuration settings for GNOME_
 - ![](grey.png) _[gnome-settings-daemon](https://packages.debian.org/trixie/gnome-settings-daemon) `48.1-1` - daemon handling the GNOME session settings_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Power management
 
 
@@ -466,10 +424,8 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/xfce4-power-manager/4.20.0-1">
 
-<<<<<<< HEAD
 
 **[xfce4-power-manager](https://packages.debian.org/trixie/xfce4-power-manager)** - power manager for Xfce desktop
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  This power manager for the Xfce desktop enables laptop users to set up
@@ -482,7 +438,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 
 - ![](green.png) [xfce4-power-manager](https://packages.debian.org/trixie/xfce4-power-manager) `4.20.0-1` - power manager for Xfce desktop
 - ![](green.png) [xfce4-battery-plugin](https://packages.debian.org/trixie/xfce4-battery-plugin) `1.1.5-1+b3` - battery monitor plugin for the Xfce4 panel
@@ -569,4 +524,3 @@
 - ![](grey.png) _[randtype](https://packages.debian.org/trixie/randtype) `1.13-11.2` - semi-random text typer_
 - ![](grey.png) _[xdotool](https://packages.debian.org/trixie/xdotool) `1:3.20160805.1-5.1` - simulate (generate) X11 keyboard/mouse input events_
 - ![](grey.png) _[wtype](https://packages.debian.org/trixie/wtype) `0.4-3` - xdotool type for wayland_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)

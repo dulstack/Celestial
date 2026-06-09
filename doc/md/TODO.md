@@ -2,7 +2,6 @@
 
 ### nodiscc/debian-live-config
 
-<<<<<<< HEAD
 
 - #173 - firefox slow on google maps with user.js - **`-`** `performance`
 - #172 - xfce4-desktop default wallpaper is not always properly set - **`-`** `bug,upstream,UX`
@@ -33,7 +32,6 @@
 - #83 - don't display cookie autodelete welcome page on firefox first startup - **`-`** `enhancement,UX`
 - #78 - WIP: replace pulseaudio audio server with pipewire - **`-`** `enhancement,maintenance,question`
 - #72 - Re-add xfce4-notes-plugin - **`5.1.0`** `enhancement,packaging,UX`
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 - #67 - Check additional packages - **`-`** `audio,feature,question`
 - #63 - tests: add a script to check for common issues? - **`-`** `feature,question,tools`
 - #61 - add gaming-related packages/configuration? - **`-`** `feature,games,question`
@@ -47,9 +45,7 @@
 - #35 - test accessing samba shares - **`-`** `feature,UX`
 - #33 - Some .desktop launchers are not localized in xfce4-whiskermenu-plugin - **`-`** `bug,l10n/a11y`
 - #30 - Add a GUI to enable/disable systemd services - **`-`** `feature,UX`
-<<<<<<< HEAD
 
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 - #25 - Add Android emulator? - **`-`** `feature,question`
 - #20 - Enable IPv6 support - **`-`** `feature`
 - #19 - installer: preseed "full user name" question to match the linux username - **`-`** `enhancement,installer,UX`

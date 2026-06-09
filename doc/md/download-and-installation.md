@@ -10,23 +10,19 @@
 
 ## Download
 
-<<<<<<< HEAD
 
 **[![](download.png) Download](https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-trixie-amd64.iso)** the latest ISO image
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 <details>
 <summary>(Recommended) verify file integrity and authenticity of the ISO image with GPG:</summary>
 
 ```bash
 # download the iso, signing key, checksums and signature
-<<<<<<< HEAD
 
 wget https://files.awesome-selfhosted.net/debian-live-config-5.0.0-debian-trixie-amd64.iso
 wget https://github.com/nodiscc/debian-live-config/releases/download/5.0.0/debian-live-config-release.key
 wget https://github.com/nodiscc/debian-live-config/releases/download/5.0.0/SHA512SUMS
 wget https://github.com/nodiscc/debian-live-config/releases/download/5.0.0/SHA512SUMS.sign
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 # import the release signing key
 # the key used to sign releases has key ID 59349F4B8349C90DF1FA85C82811B9A88CFE7F24
 gpg --import debian-live-config-release.key
@@ -43,10 +39,8 @@ sha512sum -c SHA512SUMS
 ### To USB - From Linux
 
   * Insert a 2GB+ USB drive
-<<<<<<< HEAD
 
   * Right-click the ISO image file, and click `Open with ... > Disk image writer` (requires [gnome-disks](https://packages.debian.org/trixie/gnome-disk-utility)) **Caution, all data on the USB drive will be erased**
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
   * Or, using the command line: Identify your USB drive device name (eg. `/dev/sdc`) using the `lsblk` command; Write the ISO image to the drive using `sudo dd /path/to/live-image.iso /dev/sdXXX`.
 
 ![](https://gitlab.com/nodiscc/toolbox/-/raw/master/DOC/SCREENSHOTS/1fYOBty.png)

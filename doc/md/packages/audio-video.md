@@ -9,11 +9,9 @@
 
 </sub>
 
-<<<<<<< HEAD
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/vlc/3.0.23-0+deb13u1">
 
 **[vlc](https://packages.debian.org/trixie/vlc)** - multimedia player and streamer
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  VLC is the VideoLAN project's media player. It plays MPEG, MPEG-2, MPEG-4,
@@ -28,11 +26,9 @@
 
 </sub>
 
-<<<<<<< HEAD
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/mpv/0.40.0-3+deb13u1">
 
 **[mpv](https://packages.debian.org/trixie/mpv)** - video player based on MPlayer/mplayer2
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  mpv is a movie player based on MPlayer and mplayer2. It supports a wide
@@ -43,7 +39,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [vlc](https://packages.debian.org/trixie/vlc) `3.0.23-0+deb13u1` - multimedia player and streamer
 - ![](green.png) [vlc-plugin-notify](https://packages.debian.org/trixie/vlc-plugin-notify) `3.0.23-0+deb13u1` - LibNotify plugin for VLC
 - ![](green.png) [vlc-plugin-jack](https://packages.debian.org/trixie/vlc-plugin-jack) `3.0.23-0+deb13u1` - JACK audio plugins for VLC
@@ -68,7 +63,6 @@
 - ![](grey.png) _[vlc-plugin-bittorrent](https://packages.debian.org/trixie/vlc-plugin-bittorrent) `2.15-2` - Bittorrent plugin for VLC_
 - ![](grey.png) _[mpv-mpris](https://packages.debian.org/trixie/mpv-mpris) `0.7.1-1+b1` - MPRIS plugin for mpv_
 - ![](grey.png) _[libdvd-pkg](https://packages.debian.org/trixie/libdvd-pkg) `1.4.3-1-1.1` - DVD-Video playing library - installer_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Music players/library managers
 
 
@@ -76,9 +70,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/quodlibet/4.6.0-6">
 
-<<<<<<< HEAD
 **[quodlibet](https://packages.debian.org/trixie/quodlibet)** - audio library manager and player for GTK3
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Quod Libet is a music management program. It provides several different ways
@@ -91,7 +83,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [quodlibet](https://packages.debian.org/trixie/quodlibet) `4.6.0-6` - audio library manager and player for GTK3
 - ![](green.png) [exfalso](https://packages.debian.org/trixie/exfalso) `4.6.0-6` - audio tag editor for GTK+
 - ![](green.png) [libgpod-common](https://packages.debian.org/trixie/libgpod-common) `0.8.3-22+b1` - common files for libgpod
@@ -126,7 +117,6 @@
 - ![](grey.png) _[go-mtpfs](https://packages.debian.org/trixie/go-mtpfs) `1.0.0+git20200111.42254b1-1+b15` - Mount MTP devices over FUSE_
 - ![](grey.png) _[playerctl](https://packages.debian.org/trixie/playerctl) `2.4.1-3` - utility to control media players via MPRIS_
 - ![](grey.png) _[streamtuner2](https://packages.debian.org/trixie/streamtuner2) `2.2.2+dfsg-2.2` - Browser for Internet Radio Stations_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Webcam
 
 
@@ -134,9 +124,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/cheese/44.1-5">
 
-<<<<<<< HEAD
 **[cheese](https://packages.debian.org/trixie/cheese)** - tool to take pictures and videos from your webcam
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  A webcam application that supports image and video capture. Makes
@@ -150,7 +138,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [cheese](https://packages.debian.org/trixie/cheese) `44.1-5` - tool to take pictures and videos from your webcam
 - ![](green.png) [gnome-video-effects](https://packages.debian.org/trixie/gnome-video-effects) `0.6.0-3` - Collection of GStreamer effects
 - ![](grey.png) _[guvcview](https://packages.debian.org/trixie/guvcview) `2.2.1-1` - GTK+ base UVC Viewer_
@@ -160,7 +147,6 @@
 - ![](grey.png) _[kamoso](https://packages.debian.org/trixie/kamoso) `25.04.0-1` - tool to take pictures and videos from your webcam_
 - ![](grey.png) _[zoneminder](https://packages.debian.org/trixie/zoneminder) `1.36.35+dfsg1-1` - video camera security and surveillance solution_
 - ![](grey.png) _[megapixels](https://packages.debian.org/trixie/megapixels) `1.8.3-1` - GTK4 camera app for mobile using the V4L2 media request API_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Screen recording/screencasting
 
 
@@ -168,9 +154,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/vokoscreen-ng/4.4.0-1">
 
-<<<<<<< HEAD
 **[vokoscreen-ng](https://packages.debian.org/trixie/vokoscreen-ng)** - easy to use screencast creator
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  vokoscreenNG is a powerful screencast creator in many languages to record
@@ -189,9 +173,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/obs-studio/30.2.3+dfsg-3">
 
-<<<<<<< HEAD
 **[obs-studio](https://packages.debian.org/trixie/obs-studio)** - recorder and streamer for live video content
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  OBS Studio is designed for efficiently recording and streaming live video
@@ -202,7 +184,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [vokoscreen-ng](https://packages.debian.org/trixie/vokoscreen-ng) `4.4.0-1` - easy to use screencast creator
 - ![](grey.png) _[obs-studio](https://packages.debian.org/trixie/obs-studio) `30.2.3+dfsg-3` - recorder and streamer for live video content_
 - ![](grey.png) _[kazam](https://packages.debian.org/trixie/kazam) `1.4.5-6` - screencast and screenshot application created with design in mind_
@@ -220,7 +201,6 @@
 - ![](grey.png) _[obs-source-clone](https://packages.debian.org/trixie/obs-source-clone) `0.1.5-1+b2` - plugin for OBS Studio to clone sources from a scene_
 - ![](grey.png) _[obs-source-copy](https://packages.debian.org/trixie/obs-source-copy) `0.2.5-2` - plugin for OBS Studio to copy or save scenes, sources and filters_
 - ![](grey.png) _[obs-transition-table](https://packages.debian.org/trixie/obs-transition-table) `0.2.7-5` - plugin for OBS Studio to create a transition table control_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Media conversion/codecs
 
 
@@ -228,9 +208,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/qwinff/0.2.1+git20201215-3">
 
-<<<<<<< HEAD
 **[qwinff](https://packages.debian.org/trixie/qwinff)** - GUI for FFmpeg
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  This is a free and open source media converter frontend to FFmpeg. FFmpeg
@@ -245,7 +223,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [qwinff](https://packages.debian.org/trixie/qwinff) `0.2.1+git20201215-3` - GUI for FFmpeg
 - ![](green.png) [ffmpeg](https://packages.debian.org/trixie/ffmpeg) `7:7.1.3-0+deb13u1` - Tools for transcoding, streaming and playing of multimedia files
 - ![](green.png) [flac](https://packages.debian.org/trixie/flac) `1.5.0+ds-2` - Free Lossless Audio Codec - command line tools
@@ -290,7 +267,6 @@
 - ![](grey.png) _[subliminal](https://packages.debian.org/trixie/subliminal) `2.2.0-1` - Command-line tool to search and download subtitles_
 - ![](grey.png) _[subtitleeditor](https://packages.debian.org/trixie/subtitleeditor) `0.54.0-6+b3` - Graphical subtitle editor with sound waves representation_
 - ![](grey.png) _[gaupol](https://packages.debian.org/trixie/gaupol) `1.15-2` - subtitle editor for text-based subtitle files_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Audio recording/editing
 
 
@@ -298,9 +274,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/audacity/3.7.3+dfsg-1">
 
-<<<<<<< HEAD
 **[audacity](https://packages.debian.org/trixie/audacity)** - fast, cross-platform audio editor
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  Audacity is a multi-track audio editor for Linux/Unix, MacOS and
@@ -319,9 +293,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/gnome-sound-recorder/43~beta-4">
 
-<<<<<<< HEAD
 **[gnome-sound-recorder](https://packages.debian.org/trixie/gnome-sound-recorder)** - simple and modern sound recorder for GNOME
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  GNOME sound recorder is an utility to make simple audio recording from your
@@ -332,12 +304,10 @@
 -----------------------
 
 
-<<<<<<< HEAD
  ![](green.png) [audacity](https://packages.debian.org/trixie/audacity) `3.7.3+dfsg-1` - fast, cross-platform audio editor
 - ![](green.png) [gnome-sound-recorder](https://packages.debian.org/trixie/gnome-sound-recorder) `43~beta-4` - simple and modern sound recorder for GNOME
 - ![](grey.png) _[gjacktransport](https://packages.debian.org/trixie/gjacktransport) `0.6.4-1+b1` - access to the JACK's transport mechanism as touchable slider_
 - ![](grey.png) _[qlcplus](https://packages.debian.org/trixie/qlcplus) `4.14.1-1` - Control DMX or analog lighting systems_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 #### Audio system
 
 
@@ -345,9 +315,7 @@
 
 <img align="right" src="https://screenshots.debian.net/thumbnail-with-version/pulseaudio/17.0+dfsg1-2+b1">
 
-<<<<<<< HEAD
 **[pulseaudio](https://packages.debian.org/trixie/pulseaudio)** - PulseAudio sound server
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
  PulseAudio, previously known as Polypaudio, is a sound server for POSIX and
@@ -359,7 +327,6 @@
 -----------------------
 
 
-<<<<<<< HEAD
 - ![](green.png) [pavucontrol](https://packages.debian.org/trixie/pavucontrol) `6.1-1` - PulseAudio Volume Control
 - ![](green.png) [pulseaudio](https://packages.debian.org/trixie/pulseaudio) `17.0+dfsg1-2+b1` - PulseAudio sound server
 - ![](green.png) [pulseaudio-utils](https://packages.debian.org/trixie/pulseaudio-utils) `17.0+dfsg1-2+b1` - Command line tools for the PulseAudio sound server
@@ -381,4 +348,3 @@
 - ![](grey.png) _[pulseaudio-equalizer](https://packages.debian.org/trixie/pulseaudio-equalizer) `17.0+dfsg1-2+b1` - Equalizer sink module for PulseAudio sound server_
 - ![](grey.png) _[libasound2-plugin-equal](https://packages.debian.org/trixie/libasound2-plugin-equal) `0.6-8+b4` - equalizer plugin for ALSA_
 - ![](grey.png) _[alsa-scarlett-gui](https://packages.debian.org/trixie/alsa-scarlett-gui) `0.5.1-1` - Gtk4 GUI for the Focusrite Scarlett/Clarett ALSA controls_
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)

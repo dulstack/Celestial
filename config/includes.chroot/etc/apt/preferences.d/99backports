@@ -2,7 +2,6 @@
 
 # install linux kernels and firmware from backports
 # Package: linux-image-*
-<<<<<<< HEAD
 
 # Pin: release a=trixie-backports
 # Pin-Priority: 600
@@ -13,12 +12,9 @@
 
 # Package: firmware-*
 # Pin: release a=trixie-backports
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 # Pin-Priority: 600
 
 # install NVIDIA proprietary drivers from backports
 # Package: nvidia-driver
-<<<<<<< HEAD
 # Pin: release a=trixie-backports
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 # Pin-Priority: 600

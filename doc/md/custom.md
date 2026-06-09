@@ -2,7 +2,6 @@
 
 [`Makefile`](https://gitlab.com/nodiscc/debian-live-config/-/blob/master/Makefile) automates maintenance/build/release procedures (download of extra components, tests and documentation generation, running the build, generating/signing checksums...).
 
-<<<<<<< HEAD
 
 The live/ISO image build process is managed by [live-build](https://packages.debian.org/trixie/live-build):
 
@@ -12,17 +11,14 @@ The live/ISO image build process is managed by [live-build](https://packages.deb
 * [`man lb clean`](https://manpages.debian.org/trixie/live-build/lb_clean.1.en.html)
 * [`man live-build`](https://manpages.debian.org/trixie/live-build/live-build.7.en.html)
 * `/usr/share/doc/live-manual/pdf/live-manual.portrait.en.a4.pdf.gz` ([live-manual](https://packages.debian.org/trixie/live-manual) package)
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 Run `make help` for a description of available Makefile targets.
 
 
 ## Build using the default configuration
 
-<<<<<<< HEAD
 
 Install [Debian](https://www.debian.org). You must build from the same distribution as the target distribution (build *trixie* systems on a build machine running Debian *trixie*, *testing* systems on a machine running Debian *testing*...). Then run the following commands:
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 ```bash
 # install requirements for the build system
@@ -62,11 +58,9 @@ You need some disk space for the download and build caches. The build directory 
 
 ### auto/
 
-<<<<<<< HEAD
 
 * `auto/config` sets basic configuration settings for the build (architecture, boot configuration, installer...), see [`man lb config`](https://manpages.debian.org/trixie/live-build/lb_config.1.en.html)
 * `auto/clean` is run automatically before each build to ensure the build directory is free of any artifacts from previous builds (download caches are kept). See [`man lb clean`](https://manpages.debian.org/trixie/live-build/lb_clean.1.en.html)
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 * `auto/build` contains the command used for the build, and basic logging settings
 
 
@@ -74,10 +68,8 @@ You need some disk space for the download and build caches. The build directory 
 
 Files to copy to the resulting live system (eg. modified configuration or data files under `etc/, opt/, usr/, ...`)
 
-<<<<<<< HEAD
 
 Scripts and data that do not belong to an existing Debian package _should_ be distributed as [custom packages](http://wiki.debian.org/Packaging), and not stashed directly into this directory. Debian packages can also handle custom configuration files (see [`man dpkg-divert`](https://manpages.debian.org/trixie/dpkg/dpkg-divert.1.en.html)).
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 For example, to add custom files/unpackaged programs inside your live system:
 
@@ -113,10 +105,8 @@ See [Makefile.extra](https://gitlab.com/nodiscc/debian-live-config/-/blob/master
 
 ### config/includes.installer/
 
-<<<<<<< HEAD
 
 `preseed.cfg` is used to preconfigure the _installer_ using [preseeding](https://wiki.debian.org/DebianInstaller/Preseed).
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 
 
 ### config/preseed/
@@ -147,7 +137,6 @@ Currently only 2 locales (english and french) are pre-generated, other languages
 
 ### Release process
 
-<<<<<<< HEAD
 
 - [ ] `export NEW_VERSION=X.Y.Z`
 - [ ] `make bump_version LAST_TAG=$NEW_VERSION && git add --patch && git commit -m "bump version to vX.Y.Z"`
@@ -157,7 +146,6 @@ Currently only 2 locales (english and french) are pre-generated, other languages
 - [ ] `git commit -m "release v$NEW_VERSION"`
 - [ ] `git tag -f --sign $NEW_VERSION && git push && git push --tags`
 - [ ] `make && make checksums sign_checksums`
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 - [ ] `make tests`
   - BIOS mode: test live mode in all languages
   - BIOS mode: test offline installation
@@ -168,7 +156,6 @@ Currently only 2 locales (english and french) are pre-generated, other languages
     - [ ] Automated whole disk partitioning
     - [ ] Manual
 - [ ] Copy latest CHANGELOG.md entry to a new [Github](https://github.com/nodiscc/debian-live-config/releases)/[Gitlab](https://gitlab.com/nodiscc/debian-live-config/-/releases) release
-<<<<<<< HEAD
 
 - [ ] upload `debian-live-config-X.Y.Z-debian-trixie-amd64.iso` to `files.awesome-selfhosted.net`
 
@@ -179,7 +166,6 @@ ssh -t a161f1.online-server.cloud sudo chmod 0644 /var/www/files/debian-live-con
 ```
 
 - [ ] attach `debian-live-config-release.key SHA512SUMS SHA512SUMS.sign` to the releases
->>>>>>> a38c1bd9 (Sync with https://gitlab.com/nodiscc/debian-live-config branch 5.0.0)
 - `Publish release`
  
 
