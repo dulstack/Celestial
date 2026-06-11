@@ -1,3 +1,6 @@
 distrobox
+vim
+flatpak
 sddm
-kde-plasma-desktop
+plasma-desktop
+plasma-theme-oxygen

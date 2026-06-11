@@ -47,7 +47,8 @@ catfish
 #gnome-split # bookworm only
 
 #Section: Desktop environment
-kde-plasma-desktop
+plasma-desktop
+plasma-theme-oxygen
 sddm
 #Description: xfce4
 #xfdesktop4

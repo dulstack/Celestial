@@ -3,11 +3,12 @@
 #Section: Package management
 #Description: gnome-software
 #Screenshot: gnome-software
-gnome-software
-gnome-software-plugin-flatpak
-gnome-software-plugin-deb
-gnome-software-plugin-fwupd
+#gnome-software
+#gnome-software-plugin-flatpak
+#gnome-software-plugin-deb
+#gnome-software-plugin-fwupd
 apt-listchanges
+flatpak
 apt-transport-https
 aptitude
 debconf-utils
@@ -105,7 +106,8 @@ deja-dup
 #Description: gnome-disk-utility
 #Description: gparted
 #Description: baobab
-gnome-disk-utility
+#gnome-disk-utility
+plasma-disks
 gparted
 baobab
 ncdu
@@ -161,7 +163,7 @@ bleachbit
 #Description: gnome-logs
 #Screenshot: gnome-logs
 #Screenshot: lnav
-gnome-logs
+#gnome-logs
 lnav
 colortail
 #Alt: gnome-logs
@@ -176,19 +178,19 @@ colortail
 #Section: Virtualization
 #Description: virt-manager
 #virt-manager
-virtinst
-virt-viewer
-ebtables
-dnsmasq-base
+#virtinst
+#virt-viewer
+#ebtables
+#dnsmasq-base
 #libvirt-daemon-system
 gir1.2-spiceclientgtk-3.0
 #qemu-system-x86
 #qemu-system-arm
 #qemu-utils
-libguestfs-tools
+#libguestfs-tools
 #virt-p2v
-libguestfs-rsync
-libguestfs-rescue
+#libguestfs-rsync
+#libguestfs-rescue
 netcat-openbsd
 #Alt: virt-p2v
 #Alt: virt-what
@@ -216,12 +218,12 @@ netcat-openbsd
 #Alt: ansible
 
 #Section: Java
-default-jre
+#default-jre
 
 #Section: Display manager/screen locker
 #Description: lightdm
-lightdm
-lightdm-gtk-greeter
+#lightdm
+#lightdm-gtk-greeter
 light-locker
 accountsservice
 #Alt: slim
@@ -310,7 +312,7 @@ firmware-realtek
 firmware-atheros
 firmware-b43-installer
 firmware-brcm80211
-firmware-ipw2x00
+#firmware-ipw2x00
 firmware-iwlwifi
 amd64-microcode
 intel-microcode
