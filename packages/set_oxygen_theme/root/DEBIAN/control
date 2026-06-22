@@ -1,0 +1,6 @@
+Package: set-oxygen-theme
+Maintainer: nobody <nobody@localhost>
+Architecture: amd64
+Description: program that automatically sets the plasma desktop theme to oxygen
+ after startup
+Version: 1.0.0

@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: set-oxygen-theme
+Source: https://github.com/Aclevo/Celestial
+Upstream-Contact: nobody@localhost
+
+Files: *
+Copyright: 2026, dulstack
+License: GPL-3.0
