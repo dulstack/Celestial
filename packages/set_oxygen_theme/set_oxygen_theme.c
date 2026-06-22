@@ -22,14 +22,14 @@ static inline int change_conf(){
 				" %s\n", strerror(errno));
 		return -1;
 	}
-	fwrite(script_contents, sizeof(script_contents), 1, fp);
+	fwrite(script_contents, sizeof(script_contents) - 1, 1, fp);
 	fclose(fp);
 	return 0;
 }
 void deinit(struct dirent **userdirs, char** const argv){
 	if(userdirs)free(userdirs);
 	//This script is executed only once
-	remove("/etc/systemd/system/set_oxygen_theme.service");
+	remove("/usr/lib/systemd/system/set_oxygen_theme.service");
 	//Remove itself	
 	remove(argv[0]);
 }
@@ -50,6 +50,13 @@ int main(int argc, char** argv){
 		     "Failed to change current directory to \".config/\": ");
 		int res = change_conf();
 		free(userdirs[i]);
+		//The file "plasmarc" is owned by root, we need to change it
+		struct stat statbuf;
+		//Get the st_uid and st_gid
+		ASSERT(stat(".", &statbuf), "stat for user directory failed: ");
+
+		ASSERT(chown("plasmarc", statbuf.st_uid, statbuf.st_gid),
+		 "Failed to change the ownership of the file \"plasmarc\": ");
 		chdir("/home/");
 		if(res)goto error;
 	}
