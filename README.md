@@ -12,9 +12,4 @@ To build from source you need to have the debian installed,root privilages. Afte
 `dpkg-name config/packages.chroot/cosmic-epoch-1.0.2.deb`<br/>
 `sudo apt install -y make`<br/>
 `sudo make install_buildenv`<br/>
-`sudo make -C packages -f .build.mk`<br/>
-`sudo lb config`<br/>
-`sudo lb bootstrap`<br/>
-`sudo lb chroot`<br/>
-`sudo lb installer`<br/>
-`sudo lb binary`
+`sudo make -C packages -f .build.mk`
